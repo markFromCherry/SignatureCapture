@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B18CFDB1EF86F520023CCBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B18CFDA1EF86F520023CCBD /* AppDelegate.swift */; };
+		4B18CFDD1EF86F520023CCBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B18CFDC1EF86F520023CCBD /* ViewController.swift */; };
+		4B18CFE01EF86F520023CCBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B18CFDE1EF86F520023CCBD /* Main.storyboard */; };
+		4B18CFE21EF86F520023CCBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B18CFE11EF86F520023CCBD /* Assets.xcassets */; };
+		4B18CFE51EF86F520023CCBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B18CFE31EF86F520023CCBD /* LaunchScreen.storyboard */; };
+		4B18CFF01EF86F520023CCBD /* SigCap_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B18CFEF1EF86F520023CCBD /* SigCap_SwiftTests.swift */; };
+		4B18CFFB1EF86F520023CCBD /* SigCap_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B18CFFA1EF86F520023CCBD /* SigCap_SwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B18CFEC1EF86F520023CCBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B18CFCF1EF86F520023CCBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B18CFD61EF86F520023CCBD;
+			remoteInfo = "SigCap-Swift";
+		};
+		4B18CFF71EF86F520023CCBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B18CFCF1EF86F520023CCBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B18CFD61EF86F520023CCBD;
+			remoteInfo = "SigCap-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B18CFD71EF86F520023CCBD /* SigCap-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SigCap-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B18CFDA1EF86F520023CCBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B18CFDC1EF86F520023CCBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B18CFDF1EF86F520023CCBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B18CFE11EF86F520023CCBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B18CFE41EF86F520023CCBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B18CFE61EF86F520023CCBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B18CFEB1EF86F520023CCBD /* SigCap-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SigCap-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B18CFEF1EF86F520023CCBD /* SigCap_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigCap_SwiftTests.swift; sourceTree = "<group>"; };
+		4B18CFF11EF86F520023CCBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B18CFF61EF86F520023CCBD /* SigCap-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SigCap-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B18CFFA1EF86F520023CCBD /* SigCap_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigCap_SwiftUITests.swift; sourceTree = "<group>"; };
+		4B18CFFC1EF86F520023CCBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B18CFD41EF86F520023CCBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B18CFE81EF86F520023CCBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B18CFF31EF86F520023CCBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B18CFCE1EF86F520023CCBD = {
+			isa = PBXGroup;
+			children = (
+				4B18CFD91EF86F520023CCBD /* SigCap-Swift */,
+				4B18CFEE1EF86F520023CCBD /* SigCap-SwiftTests */,
+				4B18CFF91EF86F520023CCBD /* SigCap-SwiftUITests */,
+				4B18CFD81EF86F520023CCBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B18CFD81EF86F520023CCBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B18CFD71EF86F520023CCBD /* SigCap-Swift.app */,
+				4B18CFEB1EF86F520023CCBD /* SigCap-SwiftTests.xctest */,
+				4B18CFF61EF86F520023CCBD /* SigCap-SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B18CFD91EF86F520023CCBD /* SigCap-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				4B18CFDA1EF86F520023CCBD /* AppDelegate.swift */,
+				4B18CFDC1EF86F520023CCBD /* ViewController.swift */,
+				4B18CFDE1EF86F520023CCBD /* Main.storyboard */,
+				4B18CFE11EF86F520023CCBD /* Assets.xcassets */,
+				4B18CFE31EF86F520023CCBD /* LaunchScreen.storyboard */,
+				4B18CFE61EF86F520023CCBD /* Info.plist */,
+			);
+			path = "SigCap-Swift";
+			sourceTree = "<group>";
+		};
+		4B18CFEE1EF86F520023CCBD /* SigCap-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B18CFEF1EF86F520023CCBD /* SigCap_SwiftTests.swift */,
+				4B18CFF11EF86F520023CCBD /* Info.plist */,
+			);
+			path = "SigCap-SwiftTests";
+			sourceTree = "<group>";
+		};
+		4B18CFF91EF86F520023CCBD /* SigCap-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B18CFFA1EF86F520023CCBD /* SigCap_SwiftUITests.swift */,
+				4B18CFFC1EF86F520023CCBD /* Info.plist */,
+			);
+			path = "SigCap-SwiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B18CFD61EF86F520023CCBD /* SigCap-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B18CFFF1EF86F520023CCBD /* Build configuration list for PBXNativeTarget "SigCap-Swift" */;
+			buildPhases = (
+				4B18CFD31EF86F520023CCBD /* Sources */,
+				4B18CFD41EF86F520023CCBD /* Frameworks */,
+				4B18CFD51EF86F520023CCBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SigCap-Swift";
+			productName = "SigCap-Swift";
+			productReference = 4B18CFD71EF86F520023CCBD /* SigCap-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B18CFEA1EF86F520023CCBD /* SigCap-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B18D0021EF86F520023CCBD /* Build configuration list for PBXNativeTarget "SigCap-SwiftTests" */;
+			buildPhases = (
+				4B18CFE71EF86F520023CCBD /* Sources */,
+				4B18CFE81EF86F520023CCBD /* Frameworks */,
+				4B18CFE91EF86F520023CCBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B18CFED1EF86F520023CCBD /* PBXTargetDependency */,
+			);
+			name = "SigCap-SwiftTests";
+			productName = "SigCap-SwiftTests";
+			productReference = 4B18CFEB1EF86F520023CCBD /* SigCap-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B18CFF51EF86F520023CCBD /* SigCap-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B18D0051EF86F520023CCBD /* Build configuration list for PBXNativeTarget "SigCap-SwiftUITests" */;
+			buildPhases = (
+				4B18CFF21EF86F520023CCBD /* Sources */,
+				4B18CFF31EF86F520023CCBD /* Frameworks */,
+				4B18CFF41EF86F520023CCBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B18CFF81EF86F520023CCBD /* PBXTargetDependency */,
+			);
+			name = "SigCap-SwiftUITests";
+			productName = "SigCap-SwiftUITests";
+			productReference = 4B18CFF61EF86F520023CCBD /* SigCap-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B18CFCF1EF86F520023CCBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Cambi Solutions, LLC";
+				TargetAttributes = {
+					4B18CFD61EF86F520023CCBD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2NNC5ZUY47;
+						ProvisioningStyle = Automatic;
+					};
+					4B18CFEA1EF86F520023CCBD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2NNC5ZUY47;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B18CFD61EF86F520023CCBD;
+					};
+					4B18CFF51EF86F520023CCBD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2NNC5ZUY47;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B18CFD61EF86F520023CCBD;
+					};
+				};
+			};
+			buildConfigurationList = 4B18CFD21EF86F520023CCBD /* Build configuration list for PBXProject "SigCap-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B18CFCE1EF86F520023CCBD;
+			productRefGroup = 4B18CFD81EF86F520023CCBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B18CFD61EF86F520023CCBD /* SigCap-Swift */,
+				4B18CFEA1EF86F520023CCBD /* SigCap-SwiftTests */,
+				4B18CFF51EF86F520023CCBD /* SigCap-SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B18CFD51EF86F520023CCBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B18CFE51EF86F520023CCBD /* LaunchScreen.storyboard in Resources */,
+				4B18CFE21EF86F520023CCBD /* Assets.xcassets in Resources */,
+				4B18CFE01EF86F520023CCBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B18CFE91EF86F520023CCBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B18CFF41EF86F520023CCBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B18CFD31EF86F520023CCBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B18CFDD1EF86F520023CCBD /* ViewController.swift in Sources */,
+				4B18CFDB1EF86F520023CCBD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B18CFE71EF86F520023CCBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B18CFF01EF86F520023CCBD /* SigCap_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B18CFF21EF86F520023CCBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B18CFFB1EF86F520023CCBD /* SigCap_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B18CFED1EF86F520023CCBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B18CFD61EF86F520023CCBD /* SigCap-Swift */;
+			targetProxy = 4B18CFEC1EF86F520023CCBD /* PBXContainerItemProxy */;
+		};
+		4B18CFF81EF86F520023CCBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B18CFD61EF86F520023CCBD /* SigCap-Swift */;
+			targetProxy = 4B18CFF71EF86F520023CCBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B18CFDE1EF86F520023CCBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B18CFDF1EF86F520023CCBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B18CFE31EF86F520023CCBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B18CFE41EF86F520023CCBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B18CFFD1EF86F520023CCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B18CFFE1EF86F520023CCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B18D0001EF86F520023CCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2NNC5ZUY47;
+				INFOPLIST_FILE = "SigCap-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CambiSolutionsLLC.SigCap-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4B18D0011EF86F520023CCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2NNC5ZUY47;
+				INFOPLIST_FILE = "SigCap-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CambiSolutionsLLC.SigCap-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4B18D0031EF86F520023CCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2NNC5ZUY47;
+				INFOPLIST_FILE = "SigCap-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CambiSolutionsLLC.SigCap-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SigCap-Swift.app/SigCap-Swift";
+			};
+			name = Debug;
+		};
+		4B18D0041EF86F520023CCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2NNC5ZUY47;
+				INFOPLIST_FILE = "SigCap-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CambiSolutionsLLC.SigCap-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SigCap-Swift.app/SigCap-Swift";
+			};
+			name = Release;
+		};
+		4B18D0061EF86F520023CCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2NNC5ZUY47;
+				INFOPLIST_FILE = "SigCap-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CambiSolutionsLLC.SigCap-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SigCap-Swift";
+			};
+			name = Debug;
+		};
+		4B18D0071EF86F520023CCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2NNC5ZUY47;
+				INFOPLIST_FILE = "SigCap-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CambiSolutionsLLC.SigCap-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SigCap-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B18CFD21EF86F520023CCBD /* Build configuration list for PBXProject "SigCap-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B18CFFD1EF86F520023CCBD /* Debug */,
+				4B18CFFE1EF86F520023CCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B18CFFF1EF86F520023CCBD /* Build configuration list for PBXNativeTarget "SigCap-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B18D0001EF86F520023CCBD /* Debug */,
+				4B18D0011EF86F520023CCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B18D0021EF86F520023CCBD /* Build configuration list for PBXNativeTarget "SigCap-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B18D0031EF86F520023CCBD /* Debug */,
+				4B18D0041EF86F520023CCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B18D0051EF86F520023CCBD /* Build configuration list for PBXNativeTarget "SigCap-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B18D0061EF86F520023CCBD /* Debug */,
+				4B18D0071EF86F520023CCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B18CFCF1EF86F520023CCBD /* Project object */;
+}
